@@ -21,7 +21,6 @@ const generatePlatte = () => {
   }
 };
 const copyColor = (ele, hexVal) => {
-  //   console.log(ele, hexVal);
   const colorElement = ele.querySelector(".hex-value");
   navigator.clipboard
     .writeText(hexVal)
