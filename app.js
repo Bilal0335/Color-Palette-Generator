@@ -25,7 +25,7 @@ const copyColor = (ele, hexVal) => {
   navigator.clipboard
     .writeText(hexVal)
     .then(() => {
-      colorElement.innerText = "Copied";
+      colorElement.innerText= "Copied";
       setTimeout(() => {
         colorElement.innerText = hexVal;
       }, 1000);
